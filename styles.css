@@ -8,25 +8,27 @@
 
 :root {
   --text-color: #FFFFFF;
-  --bg-url: url(assets/bg-mobile.jpg);
+  --bg-url: url(assets/bg-desktop.jpg);
   --stroke-color: rgba(255, 255, 255, .5);
   --surface-color: rgba(255, 255, 255, 0.05);
-  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --surface-color-hover: rgba(255, 255, 255, 0.2);
   --highlight-color:rgba(255, 255, 255, .2);
   --switch-bg: url(assets/moon-stars.svg);
+  --bg-url-res: url(assets/bg-mobile-light.jpg)
 }
 
 .light {
   --text-color: #000000;
-  --bg-url: url(assets/bg-mobile-light.jpg);
+  --bg-url: url(assets/bg-desktop-light.jpg);
   --stroke-color: rgba(0, 0, 0, .5);
   --surface-color: rgba(0, 0, 0, 0.05);
-  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --surface-color-hover: rgba(0, 0, 0, 0.2);
   --highlight-color:rgba(0, 0, 0, 0.1);
   --switch-bg: url(assets/sun.svg);
 }
 
 body {
+  height: 100vh;
  background: var(--bg-url) no-repeat top center/cover;
 }
 
